@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script>
+      document.getElementById("home-button").innerHTML = "ana sayfa";
+    </script>
+  </head>
+  <body onscroll="scrollFn()">
+    <main>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="#Home" id="home-button">Home</a>
+          </li>
+          <li>
+            <a href="#Gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#About Us">About Us</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="section-main" id="Home">
+        <div class="hero">
+          <h1>Travel Time</h1>
+          <div class="hero-sub">
+            lets travel with us we will start a new adventure together with full
+            of happiness and laughs
+          </div>
+          <a href="https://www.instagram.com/sametkadirb/" class="hero-button">
+            join
+          </a>
+        </div>
+      </section>
+      <section class="section-gallery" id="Gallery">
+        <div>
+          <h2>Gallery</h2>
+          <div class="cards">
+            <div class="card">
+              <img src="assets/images/gallery/mountain 1.jpg" alt="mountain" />
+              <div class="card-content">
+                <div class="card-title">mountain</div>
+                <div class="card-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora .
+                  </p>
+                </div>
+                <a href="#" class="read-more"> Read more</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain 2.jpg" alt="mountain" />
+              <div class="card-content">
+                <div class="card-title">mountain</div>
+                <div class="card-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora .
+                  </p>
+                </div>
+                <a href="#" class="read-more"> Read more</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain 3.jpg" alt="mountain" />
+              <div class="card-content">
+                <div class="card-title">mountain</div>
+                <div class="card-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora .
+                  </p>
+                </div>
+                <a href="#" class="read-more"> Read more</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain 4.jpg" alt="mountain" />
+              <div class="card-content">
+                <div class="card-title">mountain</div>
+                <div class="card-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora .
+                  </p>
+                </div>
+                <a href="#" class="read-more"> Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-about" id="About Us">
+        <h2 class="about-h2">About Us</h2>
+        <div class="about-text">
+          <p>
+            Google'daki Crisis Response (Kriz Merkezi) geçtiğimiz on yılda
+            farklı şekillerde varlığını sürdürdü. Şu anda ise dünyanın dört bir
+            yanında onlarca ofiste 100'den fazla kişinin çalıştığı resmi bir
+            ekip olarak faaliyet gösteriyor. SOS Uyarılarının 2017'nin sohbahar
+            aylarında kullanıma sunulmasından sonra, Crisis Response ekibinin
+            "font-weight yazının kalınlığını (İngilizce karşılığı olarak
+            ağırlığını) belirler. font-weight kullanımında font-family (font
+            ailesinin) özellikleri önemlidir. Font ailesinde bulunmayan bir
+            kalınlığı uygulayamazsınız.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script>
+      const isim = "Ayberk";
+      var soyisim = "gülyaz";
+      var tamisim = isim + " " + soyisim;
+      var yas = 18;
+      var yetişkinMi = yas == "18";
+      var buyil = new Date().getFullYear();
+      //isim = "mehmet";
+      console.log(yetişkinMi);
+      console.log("Merhaba Dünya!");
+      console.log(++yas);
+      console.log(isim, soyisim);
+      console.log(tamisim, yas);
+      console.log("Doğum Yılı", buyil + yas);
+
+      // function scrollFn() {
+      //   if (window.pageYOffset > 100) {
+      //     document.getElementById("menu").classList.add("menu-scroll");
+      //   } else {
+      //     document.getElementById("menu").classList.remove("menu-scroll");
+      //   }
+      // }
+    </script>
+  </body>
+</html>
