@@ -1,4 +1,4 @@
-const isim = "ahmet";
+const isim = "ayberk";
 var soyisim = "gülyaz";
 var tamisim = isim + " " + soyisim;
 var yas = 18;
